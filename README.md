@@ -18,7 +18,7 @@
 
 ## 进度
 
-+ [ ] 未包含在 Unicode 中的汉字组件
++ [x] 未包含在 Unicode 中的汉字组件
 + [ ] `4E00-9FFF` CJK Unified Ideographs
 + [ ] `3400-4DBF` CJK Unified Ideographs Extension A
 + [ ] `20000-2A6DF` CJK Unified Ideographs Extension B

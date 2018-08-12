@@ -1,7 +1,6 @@
 {
     "name": "strokes.txt",
     "dependencies": {
-        "babel-register": "^6.26.0",
         "rxjs": "^6.2.2"
     },
     "devDependencies": {

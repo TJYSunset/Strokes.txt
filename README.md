@@ -20,12 +20,12 @@
 
 + [x] 未包含在 Unicode 中的汉字组件
 + [ ] `4E00-9FFF` CJK Unified Ideographs
-+ [ ] `3400-4DBF` CJK Unified Ideographs Extension A
-+ [ ] `20000-2A6DF` CJK Unified Ideographs Extension B
-+ [ ] `2A700-2B73F` CJK Unified Ideographs Extension C
-+ [ ] `2B740-2B81F` CJK Unified Ideographs Extension D
-+ [ ] `2B820-2CEAF` CJK Unified Ideographs Extension E
-+ [ ] `2CEB0-2EBEF` CJK Unified Ideographs Extension F
++ [ ] ~~`3400-4DBF` CJK Unified Ideographs Extension A~~
++ [ ] ~~`20000-2A6DF` CJK Unified Ideographs Extension B~~
++ [ ] ~~`2A700-2B73F` CJK Unified Ideographs Extension C~~
++ [ ] ~~`2B740-2B81F` CJK Unified Ideographs Extension D~~
++ [ ] ~~`2B820-2CEAF` CJK Unified Ideographs Extension E~~
++ [ ] ~~`2CEB0-2EBEF` CJK Unified Ideographs Extension F~~
 
 ## 格式
 

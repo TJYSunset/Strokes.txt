@@ -1,3 +1,45 @@
 {
-    "prettier.eslintIntegration": true
+    "prettier.eslintIntegration": true,
+    "files.associations": {
+        "Strokes.txt": "CSV",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "rainbow1",
+                "settings": {
+                   "foreground": "#81C784",
+                   "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.rainbow2",
+                "settings": {
+                   "foreground": "#DCE775",
+                   "fontStyle": ""
+                }
+            },
+            {
+                "scope": "entity.name.function.rainbow3",
+                "settings": {
+                   "foreground": "#E0E0E0",,
+                   "fontStyle": ""
+                }
+            },
+            {
+                "scope": "comment.rainbow4",
+                "settings": {
+                   "foreground": "#FFECB3",
+                   "fontStyle": ""
+                }
+            },
+            {
+                "scope": "string.rainbow5",
+                "settings": {
+                   "foreground": "#90A4AE",
+                   "fontStyle": ""
+                }
+            }
+        ]
+    }
 }

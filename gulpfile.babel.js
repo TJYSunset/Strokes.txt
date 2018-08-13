@@ -17,7 +17,7 @@ gulp.task("generate-stub", done => {
             skipWhile(x => !x.startsWith("#\t{01}")),
             takeWhile(x => x.startsWith("#\t{")),
             map(x => /(?<placeholder>\{[0-9]+\})/.exec(x).groups.placeholder),
-            map(x => x + "," + x + "," + "\r\n")
+            map(x => x + "," + x + ",,," + "\r\n")
         ),
         rxjs.from(ids).pipe(
             skipWhile(x => x.startsWith("#")),
@@ -25,7 +25,7 @@ gulp.task("generate-stub", done => {
             map(x => x.split(/\t/)),
             map(x => ({ codepoint: x[0], literal: x[1], patterns: x.slice(2, x.length) })),
             filter(x => x.patterns.every(y => y === "^" + x.literal + "$")),
-            map(x => x.codepoint + "," + x.literal + "," + "\r\n")
+            map(x => x.codepoint + "," + x.literal + ",,," + "\r\n")
         )
     ).subscribe(
         x =>
